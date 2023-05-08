@@ -37,6 +37,9 @@ on boot
 
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
+    
+    # OTG
+    write /sys/class/oplus_chg/usb/otg_switch 1
 
     # TOF
     chown cameraserver cameraserver /sys/kernel/tof_control/app0/alg_setting
