@@ -13,14 +13,11 @@ echo "=================================="
 
 banner 2>1
 
-#Clone vibrator HAL
-banner 2>1
-rm -rf vendor/qcom/opensource/vibrator
-git clone https://github.com/itsxrp/android_vendor_qcom_opensource_vibrator.git vendor/qcom/opensource/vibrator
+# Clone Kernel source
+git clone https://github.com/ZirgomHaidar/kernel_realme_sm8350 kernel/realme/sm8350
 
-# Clone Display Hals
-rm -rf hardware/qcom-caf/sm8350/display
-git clone https://github.com/Cykeek-Labs/hardware_qcom-caf_sm8350_display.git hardware/qcom-caf/sm8350/display
+# Clone Vendor source
+git clone https://gitlab.com/ZirgomHaidar/vendor_realme_rmx3461.git vendor/realme/RMX3461
 
 # Clone livedisplay
 git clone https://github.com/LineageOS/android_hardware_lineage_livedisplay hardware/lineage/livedisplay
@@ -28,3 +25,6 @@ git clone https://github.com/LineageOS/android_hardware_lineage_livedisplay hard
 # Clone Bluetooth
 rm -rf packages/modules/Bluetooth
 git clone https://github.com/ZirgomHaidar/android_packages_modules_Bluetooth packages/modules/Bluetooth
+
+# Clone hardware
+git clone https://github.com/pjgowtham/android_hardware_oplus hardware/oplus
