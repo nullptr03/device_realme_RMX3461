@@ -68,4 +68,7 @@
         <item>org.lineageos.settings.device.KeyHandler</item>
         <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
     </string-array>
+    
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
 </resources>
