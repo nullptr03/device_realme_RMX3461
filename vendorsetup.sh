@@ -4,8 +4,8 @@ banner(){
 clear
 echo "=================================="
 echo "|                                |"
-echo "|   Realme 9 5G SE Setup Script  |"
-echo "|       Branch: Superior         |"
+echo "|  Realme 9 5G SE Setup Script   |"
+echo "|         Branch: Droidx         |"
 echo "|  Maintained By: ZirgomHaidar   |"
 echo "|                                |"
 echo "=================================="
@@ -28,3 +28,6 @@ git clone https://github.com/ZirgomHaidar/android_packages_modules_Bluetooth pac
 
 # Clone hardware
 git clone https://github.com/pjgowtham/android_hardware_oplus hardware/oplus
+
+# Clone Firmware
+git clone https://gitlab.com/ZirgomHaidar/proprietary_vendor_firmware.git vendor/firmware
