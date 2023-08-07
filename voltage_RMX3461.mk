@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX3461/device.mk)
 
 # Inherit some common superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/superior/config/common_full_device.mk)
 
-BUILD_WITH_GAPPS := true
+WITH_GAPPS := true
 TARGET_INCLUDE_MATLOG := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-PRODUCT_NAME := superior_RMX3461
+PRODUCT_NAME := voltage_RMX3461
 PRODUCT_DEVICE := RMX3461
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
